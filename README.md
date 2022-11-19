@@ -4,4 +4,5 @@ aqui  farei anotaçoes para uso futuro
 mantendo codigos atualizados e ou dicas
 e estudos
 
+teste commmit
 
