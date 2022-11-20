@@ -1,3 +1,4 @@
+
 #link-about {
   color: chocolate;
 }
@@ -12,4 +13,18 @@ ul li .link {
   color: chartreuse;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
+}
+.user {
+  color: black;
+  position: sticky;
+}
+h1{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.bot{
+  color: brown;
+  font-size: 120px;
+  font-weight: bold;
 }
