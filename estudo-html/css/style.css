@@ -1,4 +1,13 @@
-
+.final{
+  background-color: silver;
+  width: auto;
+  height: auto;
+}
+.alinhament{
+  border-color: silver;
+  padding: 10px;
+  margin: 10px;
+}
 #link-about {
   color: chocolate;
 }
@@ -13,10 +22,13 @@ ul li .link {
   color: chartreuse;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
+  background-color: blue;
 }
 .user {
   color: black;
-  position: sticky;
+  margin-right: 30px;
+  padding: 20px 30px 20px 30px;
+  
 }
 h1{
   color: black;
@@ -25,6 +37,24 @@ h1{
 }
 .bot{
   color: brown;
-  font-size: 120px;
+  font-size: 28px;
   font-weight: bold;
+}
+footer{
+  font-style: italic;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 0, 0);
+  
+}
+.bord{
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+.circulo{
+  background-color: aquamarine;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
 }
