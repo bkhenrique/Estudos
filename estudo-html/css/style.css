@@ -23,6 +23,13 @@ ul li .link {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
   background-color: blue;
+  text-align: center;
+}
+h1:hover{
+  transition: all 2.4s;
+  background-color: aqua;
+    text-align: center;
+  text-decoration: underline;
 }
 .user {
   color: black;
@@ -61,4 +68,35 @@ footer{
 .log{
   width: 80px;
   height: 80px;
+}
+td{
+  border: 1px solid rgb(126, 122, 122)
+}
+table{
+  width: 100%;
+}
+th{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px;
+  background-color: silver;
+}
+tbody{
+  width: 100%;
+  text-align: center;
+}
+tfoot{
+  text-align: center;
+  font: bold;
+text-decoration-color: aqua;
+background-color: aquamarine;
+}
+.texcentro{
+  text-align: center;
+  background-color: aquamarine;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+tr:hover{
+  transition: all 0.4s;
+  background-color: silver;
 }

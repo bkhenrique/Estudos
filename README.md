@@ -5,3 +5,5 @@ mantendo codigos atualizados e ou dicas
 e estudos
 
 Projetos, testes, codigos, resumos e estudo
+
+PASTAS SEPARADAS POR TIPOS DE LINGUAGENS
