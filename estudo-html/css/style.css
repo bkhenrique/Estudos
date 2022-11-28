@@ -25,7 +25,7 @@ ul li .link {
   background-color: blue;
   text-align: center;
 }
-h1:hover{
+.centrotext:hover{
   transition: all 2.4s;
   background-color: aqua;
     text-align: center;
