@@ -14,6 +14,68 @@ h2{
     margin-top: 10px;
 
 }
-input{
-    padding: 5px;
+input[type=text], textarea{
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 0.5px solid black ;
+    margin-top: 5px;
+
+}
+.formlog{
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    /* border: 0.5px solid black ; */
+    border-radius: 10px;
+}
+textarea{
+    height: 200px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input[type=email]{
+    padding: 10px;
+    width: auto;
+    font-size: 15px;
+    border: 0.5px solid black ;
+    margin-top: 5px;
+
+}
+input[type=password]{
+    padding: 10px;
+    width: auto;
+    font-size: 15px;
+    border: 0.5px solid black ;
+    margin-top: 5px;
+
+}
+.bordform{
+    border:1px solid rgb(243, 24, 24);
+}
+.alinhamentoform{
+    align-content: center;
+}
+.butform:hover{
+    transition:all 0.5s;
+    background-color: gold;
+}
+.butfor{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 100px;
+   
+}
+fieldset{
+    background-color: aquamarine;
+    margin: bottom 20px; ;
+    border: 2px solid red;
+}
+legend{
+    background-color: rgb(197, 247, 16);
+
 }

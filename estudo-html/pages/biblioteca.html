@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <head>
+        <h1>Biblioteca de Imagens</h1>
+        <h2>Arquivos de imagens do site</h2>
+    </head>
+    <div>
+        <h3>Adicionar imagens</h3>
+        <form action="../pages/biblioteca.html" method="POST" enctype="multipart/form-data" >
+            <fieldset>
+            <legend>Adicionar Imagens</legend>
+            <input type="hidden" name="author" value="Autor">
+            <label for="text">Nome imagem</label>
+            <input type="text" name="Imagem" value="" required>
+            <br><input type="file" name="imagem" id="Imagem" accept="image/*" required>
+            <br><input type="submit" value="enviar">
+            
+        </fieldset>
+        </form>
+
+
+    </div>
+</body>
+</html>

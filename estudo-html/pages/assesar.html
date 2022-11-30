@@ -5,25 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asseso Premium</title>
+    <link rel="stylesheet" href="../css/cssformulario.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div>
-        <div><h1>User Premium</h1></div>
-
-        <form action="../pages/login.html" method="get">
-            <input type="email" name="emaillogin" value="Email">
-            <input type="password" name="senhalogin" value="Senha">
-            <input type="submit"/ value="Acessar">
+    <div><h1>User Premium</h1></div>
+    <br>
+        <fieldset>
+            <legend>Acesso a area Premium</legend>
+        <form class="formlog" action="../pages/login.html" method="get">
+            <label for="email">Digite seu E-mail</label>
+            <input type="email" name="emaillogin" value="" required minlength="2"><br>
+            <br</b><label for="password">Digite sua Senha</label></form>
+            <input type="password" name="senhalogin" value="Senha" required minlength="8">
+            <br><input type="submit"/ value="Acessar" class="butform butfor">|<br>
         </form>
+        </fieldset>
 <div>
     
 </div>
     </div>
-    <p>Lembrar dados</p>
-    <input type="radio" name="Lembrar">
-    <p>Não Lembrar dados</p>
-    <label for="Não Lembrar dados"></label>
+    <div>
+        <p>Lembrar dados</p>
+        <input type="radio" name="Lembrar">
+        <p>Não Lembrar dados</p>
+        <label for="Não Lembrar dados"></label>
+    
+        <input type="radio" name="Não Lembrar">
 
-    <input type="radio" name="Não Lembrar">
+    </div>
+    <footer>
+        <div>
+            <a href="../index.html">Voltar</a>
+        </div>
+
+    </footer>
 </body>
 </html>

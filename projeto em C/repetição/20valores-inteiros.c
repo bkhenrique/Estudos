@@ -34,8 +34,8 @@ for (i=1; i<=20; i++)
 }
 
 printf("Media =%d\n",somavalor/20);
-printf("Maior nota=%d\n",&maior);
-printf("Menor nota=%d\n",&menor);
+printf("Maior nota=%d\n",maior);
+printf("Menor nota=%d\n",menor);
 
 
  
