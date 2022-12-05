@@ -111,3 +111,43 @@ tr:hover{
   background-color: rgb(161, 161, 189);
   text-align: center;
 }
+.passoapasso{
+  align-content: center;
+  background-color: darkorange;
+  font-family:fantasy;
+  text-decoration: underline;
+/* largura */
+  width: 60%;
+/* altura */
+  height: 60%;
+
+}
+.boxem{
+  font-size: 20px;
+  height: 600px;
+
+}
+/* unidade em é sempre baseada no item pai */
+.boxeminterno{
+  width: 10em;
+  height: 10em;
+  background-color: blue;
+}
+.boxreminterno{
+  margin: 2vw;
+  width: 10rem;
+  height: 10rem;
+  background-color: blue;
+}
+.boxpercentinterno{
+  margin: 5vw;
+  width: 50%;
+  height: 20%;
+  background-color: blue;
+}
+.vie{
+  margin: 6vw;
+  background-color: aqua;
+  width: 50vw;
+  height: 50vh;
+}
