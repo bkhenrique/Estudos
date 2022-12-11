@@ -1,0 +1,35 @@
+body{
+    padding: 0px;
+    margin: 2vw;
+}
+header{
+    background-color: rgb(204, 194, 194);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+nav{
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-weight:bolder;
+    font-style: italic;
+    
+}
+tfoot{
+    background-color: chartreuse;
+}
+thead{
+    background-color: blue;
+}
+tbody{
+    background-color: darkgrey;
+}
+fieldset{
+    background-color: rgb(217, 255, 0);
+    
+}
+legend{
+    background-color: darkgrey;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+}

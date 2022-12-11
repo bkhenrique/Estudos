@@ -1,4 +1,4 @@
-alert("Bem Vindo  ")
+alert("Você está em uma area de estudos de recursos  ")
 console.log("Ola Mundo")
 // // variaveis 
 // string é um texto; nunber é um numero; bolean falso ou verdadeiro;

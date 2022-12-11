@@ -1,3 +1,10 @@
+/* variavel de cor  */
+:root{
+  --bg-color:#0000;
+  --bg-second:#cccc;
+  /* --font-color:(cortexto1); */
+  
+}
 .final{
   background-color: silver;
   width: auto;
@@ -153,7 +160,7 @@ tr:hover{
 }
 /* cria uma condição para aparicao na tela */
 @media (min-width:750px){
-  img{
+  .favicolog{
     width: 50vw;
     height: 50vw;
   }
@@ -162,7 +169,7 @@ tr:hover{
   }
 }
 @media (min-width:601px)and (max-width :749px){
-  img{
+  .favicolog{
     width: 50vw;
     height: 50vw;
   }
@@ -171,11 +178,33 @@ tr:hover{
   }
 }
 @media (max-width:600px){
-  img{
+  /* img{
+    width: 50vw;
+    height: 50vw;
+  } */
+  .favicolog{
     width: 50vw;
     height: 50vw;
   }
+  
   body{
    background-color: darkkhaki;
   }
+}
+/* orientação de rotação da tela  */
+@media(orientation: landscape){
+  body {
+    flex-direction: row;
+  }
+}
+@media(orientation:portrait){
+  flex-direction: column;
+}
+li{
+  font-size: 20px;
+  
+}
+li:hover{
+  transition: all 0.8s;
+  background-color: gold;
 }
