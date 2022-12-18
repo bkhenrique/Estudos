@@ -33,3 +33,67 @@ legend{
     font-size: 18px;
     border-radius: 10px;
 }
+.degrade{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    background:linear-gradient(30deg, white, blue, red);
+/* abaixo padronizar em todos navegadores */
+    /* background:-moz-linear-gradient(white, blue, red);
+    background:-o-linear-gradient(white, blue, red);
+    background:-webkit-linear-gradient(white, blue, red); */
+
+}
+.animacao{
+ width: 150px;
+ height: 150px;
+ background-color:red;
+ animation-name: exemplo;
+ animation-duration: 10s;
+ /* position relative deixa ele flutuando proximo a sua div */
+ position: relative;
+
+}
+@keyframes exemplo{
+    0% {background-color:red;top:0px;left:0px;}
+    25% {background-color:yellow;top:0px;left:200px;}
+    50% {background-color:blue;top:200px;left:200px;}
+    75% {background-color:green;top:200px;left:0px;}
+    100% {background-color:red;top:0px;left:0px;}
+    
+}
+.sombras{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+     background-color:red;
+     box-shadow: 10px 10px 15px black;
+     border-radius: 10px;
+     text-shadow: 2px 2px 5px green;
+}
+.transicao1{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+     background-color:rgb(17, 0, 255);
+     transition: all 1s linear;
+}
+.transicao1:hover{
+    background-color:rgb(0, 255, 34);
+    box-shadow: 10px 10px 15px black;
+    width: 250px;
+    height: 250px;
+}
+transitiontexto1{
+ color: black;
+ font-size: 15px;
+ background-color: bisque;
+}
+transitiontexto1:hover{
+    color: gold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 44, 43);
+    box-shadow: 10px 10px 5px rgb(245, 52, 4);
+    border-radius: 10px;
+}
