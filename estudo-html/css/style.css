@@ -199,7 +199,7 @@ tr:hover{
   }
 }
 @media(orientation:portrait){
-  flex-direction: column;
+  flex-direction:column;
 }
 li a{
   display: block;
@@ -213,11 +213,6 @@ li a{
 li:hover{
   transition: all 0.8s;
   background-color: gold;
-}
-.sobrepor{
- 
-  
-  
 }
 li{
   display: flex;
