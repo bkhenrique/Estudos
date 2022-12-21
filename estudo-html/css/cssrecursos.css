@@ -97,3 +97,146 @@ transitiontexto1:hover{
     box-shadow: 10px 10px 5px rgb(245, 52, 4);
     border-radius: 10px;
 }
+/* citação*/
+blockquote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+    font-style: italic;
+    
+}
+figure{
+    padding:5px;
+    margin: 0%;
+    border: 1px solid black;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+figcaption{
+    background-color: rgb(58, 160, 250);
+    color: black;
+    text-align: center;
+    padding: 2px;
+}
+/* .flex{
+    width: 50%;
+    height: 200px;
+    background-color: chocolate;
+    margin: 10%;
+    float: left;
+
+} */
+.counteinerflex{
+    display: flex;
+    background-color: aquamarine;
+    /* flex-direction: row; */
+    margin: 10px;
+
+    
+}
+.counteinerflex div{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.counteinerflex2{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    margin: 10px;
+
+    
+}
+.counteinerflex2 div{
+    flex: 1;
+    background-color: rgb(13, 235, 13);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.counteinerflex3{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(235, 52, 19);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+/* aqui o numero representa o tamanho de 1 para 1 de cada div se eu colocar 2 ele vai ter 2x, se 3 sera 3x, e assim por diante. o tamanho das outras */
+.flex1{
+    flex: 1;
+    background-color: rgb(13, 235, 13);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.flex2{
+    flex: 1;
+    background-color: rgb(13, 235, 13);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.flex3{
+    flex: 2;
+    background-color: rgb(13, 235, 13);
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    background-color: #555;
+}
+.flexwrap div{
+    width: 200px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.flexalinhado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.flexalinhado div{
+    width: 100px;
+    background-color: darkgray;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.sobedesce{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: magenta;
+}
+.sobedesce div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(116, 247, 9);
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+}
+.divsobe{
+    align-self: flex-start;
+}
+.divdesce{
+    align-self: flex-end;
+}
+.divcentro{
+    align-self: center;
+}
