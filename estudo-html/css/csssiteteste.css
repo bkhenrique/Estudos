@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     margin:0;
     padding:0;
@@ -13,7 +16,7 @@ header{
     display: flex;
     justify-content:space-between;
     width: 990px;
-    background-color: red;
+    
 
 }
 .logo{
@@ -47,7 +50,7 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 a :hover{
@@ -59,8 +62,97 @@ nav a:hover{
     color:#ffffffff ;
 }
 #banner{
+    display: flex;
+    justify-content: center;
     background-image:url(../image/baloes.webp);
-    background-position:inherit;
+    background-position:center;
     background-size: cover;
-    height: 500px;
+    height: 670px;
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.column{
+    flex-direction: column;
+}
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow:0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+
+}
+.banner_headline h2{
+    color: white;
+    font-size: 21px;
+    text-shadow:0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin: top 30px; ;
+
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    padding: 20px;
+    
+
+}
+.banner1{
+    background-color: #39aae1;
+    color: white;
+   
+
+}
+.banner2{
+    background-color: #0079c7;
+    color: white;
+
+}
+.banner3{
+    background-color: #2b4c99;
+    color: white;
+
+}
+.bannertitle{
+    color: white;
+    font-size: 21px;
+
+}
+.bannercontent{
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.banner_options a{
+    display:inline-block;
+    border: 1px solid #FFFFFFFF;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+.bannerhoras{
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+    padding: 10px;
+    text-align-last: justify;
+    
 }
