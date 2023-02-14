@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, user-scale=0">
     <title>Site Teste</title>
     <link rel="stylesheet" href="../css/csssiteteste.css">
+    <script type="text/javascript">
+    window.onload=function(){
+        document.querySelector(".menuMobile").addEventListener("click",function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                document.querySelector(".menu nav ul").style.display='none';
+            } else{
+                document.querySelector(".menu nav ul").style.display='flex';
+
+            }
+        });
+    };
+    </script>
 </head>
 <body>
 <header>
@@ -16,6 +28,11 @@
                 <img class="logomenu" src="../image/logo solu 2.fw.png" alt="BK Soluções Digitais"> </div></a>
         <div class="menu">
             <nav>
+                <div  class="menuMobile">
+                    <div class="mm_Line"></div>
+                    <div class="mm_Line"></div>
+                    <div class="mm_Line"></div>
+                </div>
                 <ul>
                     <li class="active"><a href="">Home</a></li>
                     <li><a href="">Home</a></li>
