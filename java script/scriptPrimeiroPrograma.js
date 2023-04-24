@@ -1,15 +1,13 @@
-;let idade = prompt('Qual sua idade?');
+const idade = prompt('Qual sua idade?');
 
 if(idade < 18 ){
     console.log("você é uma Criança")
-    console.log(idade)
 }else if(idade >= 18 && idade <60){
     console.log("você é um Adulto")
-    console.log(idade)
 }else if(idade >= 60 ){
     console.log("você é um Idoso")
-    console.log(idade)
 }
+console.log(`Sua idade: ${idade}`)
 // condicional
 // < menor q 
 // > maior q
