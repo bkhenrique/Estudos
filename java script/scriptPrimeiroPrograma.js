@@ -16,6 +16,8 @@ console.log(`Sua idade: ${idade}`)
 // <= menor ou igual
 // != diferente
 
+// ternario
+
 // =  operador de atribuiçao
 // ==  igual a ou equal to
 // === valor e tipo igual
@@ -24,3 +26,30 @@ console.log(`Sua idade: ${idade}`)
 // && (e) duas verdadeiras
 // || (ou) uma das duas verdadeiras
 //
+
+//ternario
+
+let isMember = true
+let shipping = isMember ? 2 :10 //se for true 2 se nao 10
+
+console.log(isMember ? 'Você é membro':'Você não é membro')
+console.log('Frete: '+ shipping)
+
+//switch
+
+let profission = prompt('Qual sua profissão? Bombeiro, Policial, Fiscal, Outros');
+console.log('Profissão: ' + profission)
+switch(profission){
+    case 'bombeiro':
+        console.log('Sua camiseta será vermelha')
+        break
+    case 'polocial':
+        console.log('Sua camiseta será azul')
+        break
+    case 'fiscal':
+        console.log('Sua camiseta será verde')
+        break
+    case profission:
+        console.log('Sua camiseta será preta')
+        break
+}
