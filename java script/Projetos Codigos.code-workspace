@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../bktop1/bktop1"
+		},
+		{
+			"path": "../../estacio"
+		},
+		{
+			"path": "../../app_mobile"
+		}
+	],
+	"settings": {}
+}

@@ -53,3 +53,17 @@ switch(profission){
         console.log('Sua camiseta será preta')
         break
 }
+
+// declarando função
+
+function gravidade() {
+    console.log('a gravidade do planeta é:');
+    console.log(9.8);
+}
+gravidade();
+
+function somar(n1, n2){
+    let resultado = n1 + n2;
+    console.log('Resultado: ' + resultado);
+}
+somar(10, 15);
