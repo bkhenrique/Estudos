@@ -64,7 +64,7 @@ nav a:hover{
 #banner{
     display: flex;
     justify-content: center;
-    background-image:url(../image/baloes.webp);
+    background-image:url(./baloes.webp);
     background-position:center;
     background-size: cover;
     height: 670px;
